@@ -15,10 +15,10 @@ public class CountryModelController {
     @Autowired
     private CountryDetailsService countryDetailsService;
 
-    @RequestMapping(value ={"","/"})
-    public String sayHello () {
-        return "index";
-    }
+//    @RequestMapping(value ={"","/"})
+//    public String sayHello () {
+//        return "index";
+//    }
 
     @RequestMapping("/countryCapital")
     public String listContact(Model model) {
