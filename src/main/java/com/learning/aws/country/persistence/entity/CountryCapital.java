@@ -2,8 +2,10 @@ package com.learning.aws.country.persistence.entity;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import javax.persistence.Table;
 
 @Entity
+@Table(name="country_capital",schema="innodb")
 public class CountryCapital {
     @Id
     private String countryName;
