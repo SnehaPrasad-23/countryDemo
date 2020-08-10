@@ -5,7 +5,7 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name="country_capital",schema="innodb")
+@Table(name="country_capital",schema="test")
 public class CountryCapital {
     @Id
     private String countryName;
